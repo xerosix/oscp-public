@@ -6,7 +6,7 @@ from impacket.smbconnection import SMBConnection
 
 debug = False
 
-if len(sys.argv) < 1:
+if len(sys.argv) < 2:
    print "smb-version.py {ip:port} [optional: --debug]"
    quit()
 else:
